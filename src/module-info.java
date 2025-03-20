@@ -5,5 +5,6 @@
  * @author aswini
  *
  */
-module basicCaluclator {
+module basicCalculator {
+	requires java.desktop;
 }
