@@ -49,8 +49,7 @@ public class ActionHandler implements ActionListener{
 				case '-':
 					result=num1-num2;
 					break;
-				case '*':
-					result=num1*num2;
+				
 				case '/':
 					if(num2!=0) {
 						result=num1/num2;
@@ -59,6 +58,9 @@ public class ActionHandler implements ActionListener{
 						display.setText("error");
 					return;
 				}
+					break;
+				case '*':
+					result=num1*num2;
 				break;
 			}
 		display.setText(String.valueOf(result));
